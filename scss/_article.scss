@@ -1,0 +1,245 @@
+.article {
+  .container {
+    height: 750px;
+  }
+  .article__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+  }
+  .article__rght {
+    width: 50%;
+  }
+  .article__left {
+    width: 50%;
+    margin-bottom: 390px;
+  }
+  .article__title {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194a;
+    margin-bottom: 30px;
+  }
+  .article__text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194a;
+  }
+  .article__img {
+    position: relative;
+    bottom: 230px;
+    left: 100px;
+    width: 90%;
+  }
+  .article__imgg {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .article {
+    .article__left {
+      margin-bottom: 300px;
+    }
+    .article__img {
+      position: relative;
+      bottom: 180px;
+      left: 65px;
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .article {
+    .article__left {
+      margin-bottom: 230px;
+    }
+    .article__img {
+      position: relative;
+      bottom: 180px;
+      left: 65px;
+      width: 90%;
+    }
+    .article__title {
+      font-family: Roboto;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 50px;
+      color: #00194a;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .article {
+    .article__left {
+      margin-bottom: 200px;
+    }
+    .article__img {
+      position: relative;
+      bottom: 140px;
+      left: 45px;
+      width: 90%;
+    }
+    .article__title {
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .article__text {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .article {
+    .article__left {
+      margin-bottom: 150px;
+    }
+    .article__img {
+      position: relative;
+      bottom: 140px;
+      left: 40px;
+      width: 90%;
+    }
+    .article__title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .article__text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .article {
+    .article__left {
+      margin-bottom: 120px;
+    }
+    .article__img {
+      position: relative;
+      bottom: 110px;
+      left: 30px;
+      width: 90%;
+    }
+    .article__title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .article__text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .article {
+    .container {
+      height: 1000px;
+    }
+    .article__div {
+      flex-direction: column;
+    }
+    .article__left {
+      position: relative;
+      bottom: 200px;
+      width: 100%;
+    }
+    .article__img {
+      position: relative;
+      bottom: 270px;
+      left: 70px;
+      width: 85%;
+    }
+    .article__title {
+      text-align: center;
+      font-size: 26px;
+      line-height: 40px;
+    }
+    .article__text {
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .article__rght {
+      width: 100%;
+    }
+    .article__imgg {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .article {
+    .container {
+      height: 1000px;
+    }
+    .article__div {
+      flex-direction: column;
+    }
+    .article__left {
+      position: relative;
+      bottom: 200px;
+      width: 100%;
+    }
+    .article__img {
+      position: relative;
+      bottom: 200px;
+      left: 50px;
+      width: 85%;
+    }
+    .article__title {
+      text-align: center;
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .article__text {
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .article {
+    .article__left {
+      position: relative;
+      bottom: 180px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .article {
+    .article__left {
+      position: relative;
+      bottom: 100px;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .article {
+    .article__left {
+      position: relative;
+      bottom: 100px;
+      width: 100%;
+    }
+  }
+}
