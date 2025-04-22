@@ -1,5 +1,5 @@
 .aside {
-  margin-top: 100px;
+  margin-bottom: 70px;
   .aside__div {
     display: flex;
     align-items: center;
@@ -162,16 +162,16 @@
 @media (max-width: 450px) {
   .aside {
     .aside__left {
-        flex-wrap: wrap;
-        gap: 40px;
+      flex-wrap: wrap;
+      gap: 40px;
     }
     .aside__card {
       max-width: 40%;
-       margin: 0;
+      margin: 0;
     }
     .aside__cardd {
       max-width: 40%;
-       margin: 0;
+      margin: 0;
     }
     .aside__cardc {
       max-width: 50%;
